@@ -1,5 +1,9 @@
-for(let i=0; i<100; i++) {
-    if((i%5) == 0) {
-        console.log(i);
+
+function getMultiplesOfX(divisor, max) {
+    for(let i=0; i<=max; i++) {
+        if((i%divisor) == 0) {
+            console.log(i);
+        }
     }
 }
+getMultiplesOfX(5, 1000)
