@@ -1,6 +1,6 @@
 
 function getMultiplesOfX(divisor, max) {
-    for(let i=0; i*divisor<max; i++) {
+    for(let i=0; i*divisor<=max; i++) {
         console.log(i*divisor);
     }
 }
