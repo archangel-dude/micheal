@@ -1,9 +1,7 @@
 
 function getMultiplesOfX(divisor, max) {
-    for(let i=0; i<=max; i++) {
-        if((i%divisor) == 0) {
-            console.log(i);
-        }
+    for(let i=0; i*divisor<max; i++) {
+        console.log(i*divisor);
     }
 }
-getMultiplesOfX(5, 1000)
+getMultiplesOfX(7, 1000)
